@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.contener{
+    max-width: 1400px;
+    margin: 0;
+    background-color: rgb(146, 146, 189);
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        
+        
+        
+    }
+    .navbar ul li{
+        position: relative;
+        float: left;
+        left: 100%;
+        
+    }
+    .navbar ul li a:hover{
+        color: #ff7300;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+        margin: 0%;
+        padding: 18px;
+        color: #ffffff;
+        display: block;
+        
+        
+    }
+    ul{
+        list-style: none;
+        
+    }

@@ -1,0 +1,20 @@
+.produc{
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+}
+.apa {
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    
+}
+.produc:hover .apa {
+    display: block;
+    visibility: visible;
+    opacity: 1;
+}
+.produc-image {
+    width: 200px;
+    height: auto;
+}
